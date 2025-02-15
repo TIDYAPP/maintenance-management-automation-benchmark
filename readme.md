@@ -2,6 +2,7 @@
 
 ## Table of Contents
 - [Introduction](#introduction)
+- [Current Results](#current-results)
 - [I. Automated Management & Scheduling](#i-automated-management--scheduling)
   - [A. Digital Platform Integration](#a-digital-platform-integration)
   - [B. Multi-Channel Communication](#b-multi-channel-communication)
@@ -71,7 +72,21 @@ This list is comprehensive, and humans are not necessarily good at all of it. An
 
 Below is a revised version of the checklist with each task written to be detailed and specific to cleaning and maintenance management. Tasks that were too generic have been refined or rephrased for clarity.
 
-## I. Automated Management & Scheduling
+Vendor Submissions. To have your information considered, please complete a PR which contains at the minimum the name of your system, a description of your system, and a demo or other way to validate that your system can do as you describe.
+
+Checklist Improvements. If you have a suggestion to improve the checklist, please create a PR with your change. Any suggestions are welcome. We recommend being more specific with tasks, and less general.
+
+## Current Results
+
+| Vendor | Overall Score | Tasks Automated | Strongest Categories | Areas for Improvement |
+|--------|---------------|-----------------|---------------------|----------------------|
+| CleanTech Solutions | 78% | 156/200 | - Access Control & Security (92%)<br>- Advanced Analytics (89%)<br>- Quality Control (85%) | - Emergency Response (65%)<br>- Chemical Safety (68%) |
+| AutoMaint Pro | 82% | 164/200 | - Regulatory Compliance (94%)<br>- Emergency Response (91%)<br>- Staff Certification (88%) | - Transportation Coordination (71%)<br>- API Management (69%) |
+| SmartClean AI | 75% | 150/200 | - Sustainability (93%)<br>- Resource Management (90%)<br>- Financial Operations (87%) | - Background Screening (64%)<br>- Insurance Documentation (67%) |
+
+*Scores last updated: March 25, 2024*
+
+## I. Automated Management & Scheduling Checklist
 
 ### A. Digital Platform Integration
 - [ ] Recurring Cleaning Tasks: Schedule tasks with explicit requirements (e.g., "Daily vacuuming on the 3rd floor corridor, weekly cleaning of front façade windows, monthly deep carpet cleaning in the lobby").
