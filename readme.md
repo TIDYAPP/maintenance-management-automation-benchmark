@@ -78,11 +78,9 @@ Checklist Improvements. If you have a suggestion to improve the checklist, pleas
 
 ## Current Results
 
-| Vendor | Overall Score | Tasks Automated | Strongest Categories | Areas for Improvement |
-|--------|---------------|-----------------|---------------------|----------------------|
-| CleanTech Solutions | 78% | 156/200 | - Access Control & Security (92%)<br>- Advanced Analytics (89%)<br>- Quality Control (85%) | - Emergency Response (65%)<br>- Chemical Safety (68%) |
-| AutoMaint Pro | 82% | 164/200 | - Regulatory Compliance (94%)<br>- Emergency Response (91%)<br>- Staff Certification (88%) | - Transportation Coordination (71%)<br>- API Management (69%) |
-| SmartClean AI | 75% | 150/200 | - Sustainability (93%)<br>- Resource Management (90%)<br>- Financial Operations (87%) | - Background Screening (64%)<br>- Insurance Documentation (67%) |
+| Vendor | Cleaning & Maintenance Management Automation | Physical Automation |
+|--------|---------------|-------------|
+| TIDY | 36% | 0% |
 
 *Scores last updated: March 25, 2024*
 
