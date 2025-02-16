@@ -78,11 +78,15 @@ If you have a suggestion to improve the checklist, please create a PR with your 
 
 ## Current Results
 
-| Vendor | Cleaning & Maintenance Management Automation | Physical Automation |
+| Vendor | Cleaning & Maintenance Management Automation | Summary |
 |--------|---------------|-------------|
-| TIDY | 36% | 0% |
+| TIDY with Concierge | 90% | Good at documentation and proactive steps, bad at communication and edge case management |
+| STR Management LLC (Human Baseline) | 81% | Good at communication and edge case management, bad at documentation and proactive steps |
+| Prime Property Management (Human Baseline) | 73% | Good at communication and edge case management, bad at documentation and proactive steps |
+| Lone Star Servicing (Human Baseline) | 66% | Good at communication and edge case management, bad at documentation and proactive steps |
+| TIDY | 59% | Good at documentation and proactive steps, bad at communication and edge case management |
 
-*Scores last updated: March 25, 2024*
+*Scores last updated: Feb 15, 2025*
 
 ## I. Property Understanding & Digital Twin
 
@@ -92,7 +96,7 @@ If you have a suggestion to improve the checklist, please create a PR with your 
 - [ ] Document detailed asset specifications including model numbers, warranty details, and property features (e.g., 3 bedroom, 2000 sq ft, 2 HVAC units)
 
 ### B. Inventory Management
-- [ ] Monitor cleaning supply levels using smart shelving sensors with specific thresholds (e.g., paper towels, disinfectants)
+- [ ] Monitor cleaning supply levels thresholds (e.g., paper towels, disinfectants)
 - [ ] Predict usage based on property data (square footage, rooms, surface types) and usage patterns (guest/tenant count)
 - [ ] Set up automated replenishment orders with vendor-specific requirements through preferred channels
 - [ ] Send automated restock alerts to inventory managers when supplies drop below preset thresholds
@@ -109,27 +113,28 @@ If you have a suggestion to improve the checklist, please create a PR with your 
 ## II. Task & Requirements Management
 
 ### A. Scheduled Maintenance
-- [ ] Dynamically adjust cleaning and maintenance schedules based on occupancy sensor data, crew availability, and real-time performance metrics (e.g., cleaning duration and tenant feedback)
+- [ ] Coordinate cleaning schedules with tenant move-in/move-out dates, considering specific property requirements and condition assessments
+- [ ] Dynamically adjust cleaning and maintenance schedules based on occupancy, crew availability, and real-time performance metrics
 - [ ] Calculate ROI for preventative cleaning maintenance by tracking metrics such as issue frequency, cost savings from avoided re-cleans, and asset longevity improvements
 - [ ] Schedule HVAC filter changes based on manufacturer guidelines, air quality metrics, and occupancy patterns
 - [ ] Track appliance maintenance history and schedule servicing based on usage cycles, manufacturer recommendations, and performance data
-- [ ] Coordinate cleaning schedules with tenant move-in/move-out dates, considering specific property requirements and condition assessments
+
 
 ### B. On-Demand Requests
-- [ ] Automatically re-optimize cleaning routes and schedules based on real-time service requests, geographic clustering of tasks, and crew proximity to optimize response times
 - [ ] Immediately route urgent cleaning tasks (e.g., water spill cleanup, biohazard decontamination) to vendors with available crews and the required specialized equipment
 - [ ] Match cleaning specialists to jobs based on required certifications and expertise (e.g., healthcare facility cleaning, high-rise window washing, carpet deep cleaning)
 - [ ] Handle last-minute cancellations by automatically triggering backup staffing protocols and adjusting affected cleaning schedules
+- [ ] Automatically re-optimize cleaning routes and schedules based on real-time service requests, geographic clustering of tasks, and crew proximity to optimize response times
 
 ### C. Emergency Response
-- [ ] Develop detailed emergency cleaning and maintenance protocols for incidents such as chemical spills, biohazard events, and severe water leaks, ensuring 24/7 response readiness
+- [ ] Develop detailed emergency cleaning and maintenance protocols for incidents such as severe water leaks, ensuring 24/7 response readiness
 - [ ] Route urgent facility cleaning issues to available technicians via their preferred method (SMS, call, or app alert) with specific incident details and required equipment
 - [ ] Assess if regular cleaning operations can continue in unaffected areas during emergency maintenance, with clear documentation of postponed zones
-- [ ] Dispatch emergency cleaning crews equipped for specific scenarios (e.g., biohazard cleanup, flood remediation, chemical spill containment)
+- [ ] Dispatch emergency maintenance crews equipped for specific scenarios (e.g., plumbers, cleaners)
 
 ### D. Task List Management
 - [ ] Generate digital, location-specific checklists for cleaning tasks with step-by-step instructions (e.g., sanitizing high-touch surfaces in public areas)
-- [ ] Track cleaning crew progress in real-time with specific verification points (e.g., floor-by-floor completion, room-by-room sanitization)
+- [ ] Track cleaning crew progress in real-time
 - [ ] Enable incident reporting via photo/video submissions with automatic alert escalation for cleaning-related issues
 - [ ] Update task requirements based on changing conditions (e.g., surface types, occupancy patterns, seasonal needs)
 
@@ -139,10 +144,10 @@ If you have a suggestion to improve the checklist, please create a PR with your 
 - [ ] Archive insurance certificates and compliance documents specific to cleaning and maintenance operations
 
 ### F. Safety & Environmental Requirements
-- [ ] Continuously monitor and enforce compliance with cleaning chemical safety guidelines (e.g., OSHA standards) and environmental regulations specific to waste disposal and chemical storage
+- [ ] Continuously monitor and enforce compliance with safety guidelines (e.g., OSHA standards) and environmental regulations specific to waste disposal and chemical storage
 - [ ] Maintain records of safety certifications for cleaning equipment (e.g., ladder safety, electrical safety) and promptly document any workplace safety incidents
 - [ ] Track PPE requirements for specific cleaning tasks and enforce safety protocol adherence
-- [ ] Update emergency procedures based on cleaning-related incident reports and regulatory changes
+- [ ] Update emergency procedures based on historical incidents reports and regulatory changes
 
 ### G. Risk Management
 - [ ] Identify potential cleaning and maintenance risks—such as equipment malfunctions, chemical spills, or biohazard exposures—and proactively implement targeted preventive measures
@@ -168,8 +173,6 @@ If you have a suggestion to improve the checklist, please create a PR with your 
 - [ ] Verify vendor equipment availability and functionality prior to job assignments
 - [ ] Monitor equipment maintenance status and resource allocation
 - [ ] Automatically reassign tasks if equipment malfunctions are reported
-- [ ] Route equipment failure issues to nearest qualified team with proper equipment
-- [ ] Notify building security of any crew reassignments due to equipment issues
 
 ## IV. Job & Schedule Management
 
@@ -191,25 +194,24 @@ If you have a suggestion to improve the checklist, please create a PR with your 
 ### D. Access Control
 - [ ] Manage electronic access for cleaning staff through integrated building access systems
 - [ ] Sync cleaning schedules with property access controls to ensure secure entry
-- [ ] Track access credentials and monitor entry logs for compliance
 
 ## V. Quality Assurance
 
 ### A. Stakeholder Feedback
 - [ ] Collect post-service feedback through multiple channels (email, SMS, app) from all stakeholders
-- [ ] Process satisfaction metrics with specific thresholds
 - [ ] Track quality issues by category (cleanliness, timeliness, communication) and develop targeted improvement plans
 - [ ] Follow up automatically on low ratings
 - [ ] Automatically schedule re-cleans when quality metrics fall below acceptable standards
 
 ### B. Pro Communication
 - [ ] Maintain communication channels with cleaning crews with response time SLAs of less than 1 minute for responses.
-- [ ] Track response times with escalation protocols.
+- [ ] Escalate issues promptly in accordance with rules.
 - [ ] Archive detailed communication logs including timestamps, response times, and resolution details
 
 ### C. Visual Verification
-- [ ] Process before/after cleaning photos with specific required angles (e.g., all corners of rooms)
-- [ ] Use AI-powered analysis to verify cleaning quality against specific standards (e.g., no visible dust, streak-free windows)
+- [ ] Process before/after cleaning photos
+- [ ] Process before/after cleaning videos
+- [ ] Analyze / verify cleaning quality against specific standards (e.g., no visible dust, streak-free windows)
 - [ ] Archive visual records with metadata (timestamp, location, cleaner) for quality audits
 
 ## VI. Property Data Updates
@@ -217,7 +219,7 @@ If you have a suggestion to improve the checklist, please create a PR with your 
 ### A. Maintenance Records
 - [ ] Document completed cleaning and maintenance tasks
 - [ ] Update maintenance histories with detailed service records and time logs
-- [ ] Track service patterns to inform future scheduling and resource allocation
+- [ ] Track service patterns to improve preventative maintenance and future scheduling
 
 ### B. Inventory Updates
 - [ ] Update stock levels based on usage data and automated restock triggers
@@ -246,13 +248,9 @@ If you have a suggestion to improve the checklist, please create a PR with your 
 ## VIII. Third-Party Integrations
 
 ### A. Property Management Systems
-- [ ] Provide secure API endpoints to allow access to cleaning and maintenance schedules, asset data, and service logs, complete with usage limits and key management
-- [ ] Support webhooks that notify property managers in real time of schedule changes, cleaning task completions, and maintenance alerts
-- [ ] Continuously monitor API error logs and integration health metrics for cleaning and maintenance data synchronization operations
-- [ ] Integrate cleaning records with building automation systems for enhanced coordination of services
+- [ ] Provide secure API endpoints to allow data to be pushed to third party systems as needed.- [ ] Support webhooks that notify property managers in real time of schedule changes, cleaning task completions, and maintenance alerts
 
 ### B. Accounting Systems
 - [ ] Integrate cleaning and maintenance financial records with accounting software to ensure up-to-date reconciliation of labor, supply, and equipment costs
-- [ ] Provide API endpoints to allow access to cost data for cleaning and maintenance, including labor costs, cleaning supply expenses, and replacement item costs (when applicable)
 - [ ] Continuously monitor and log all financial data synchronization operations between cleaning systems and accounting platforms, with automated alerts for discrepancies
 - [ ] Generate detailed year-end financial reports categorized by cleaning service types, maintenance activities, and vendor performance

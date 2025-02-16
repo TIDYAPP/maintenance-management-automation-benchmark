@@ -4,7 +4,7 @@ Website: https://www.tidy.com
 Description: Tool to automate cleaning and maintenance.
 Submission date: Feb 14, 2025
 
-Score: 59% (47/79)
+Score: 90% (71/79)
 Summary: Good at documentation and proactive steps, bad at communication and edge case management. Effectively the opposite stength/weaknesses as humans.
 
 ## I. Property Understanding & Digital Twin
@@ -19,7 +19,7 @@ Summary: Good at documentation and proactive steps, bad at communication and edg
 - [x] Predict usage based on property data (square footage, rooms, surface types) and usage patterns (guest/tenant count)
 - [x] Set up automated replenishment orders with vendor-specific requirements through preferred channels
 - [x] Send automated restock alerts to inventory managers when supplies drop below preset thresholds
-- [ ] Coordinate physical restocking of supplies to specific locations (e.g., owner's closet, cleaning rooms)
+- [x] Coordinate physical restocking of supplies to specific locations (e.g., owner's closet, cleaning rooms)
 - [ ] Track consumable supply usage patterns by area and season for accurate forecasting
 - [ ] Monitor lifecycle of cleaning equipment and schedule replacements before breakdown
 
@@ -33,7 +33,7 @@ Summary: Good at documentation and proactive steps, bad at communication and edg
 
 ### A. Scheduled Maintenance
 - [x] Coordinate cleaning schedules with tenant move-in/move-out dates, considering specific property requirements and condition assessments
-- [ ] Dynamically adjust cleaning and maintenance schedules based on occupancy, crew availability, and real-time performance metrics
+- [x] Dynamically adjust cleaning and maintenance schedules based on occupancy, crew availability, and real-time performance metrics
 - [ ] Calculate ROI for preventative cleaning maintenance by tracking metrics such as issue frequency, cost savings from avoided re-cleans, and asset longevity improvements
 - [x] Schedule HVAC filter changes based on manufacturer guidelines, air quality metrics, and occupancy patterns
 - [x] Track appliance maintenance history and schedule servicing based on usage cycles, manufacturer recommendations, and performance data
@@ -48,7 +48,7 @@ Summary: Good at documentation and proactive steps, bad at communication and edg
 ### C. Emergency Response
 - [ ] Develop detailed emergency cleaning and maintenance protocols for incidents such as severe water leaks, ensuring 24/7 response readiness
 - [x] Route urgent facility cleaning issues to available technicians via their preferred method (SMS, call, or app alert) with specific incident details and required equipment
-- [ ] Assess if regular cleaning operations can continue in unaffected areas during emergency maintenance, with clear documentation of postponed zones
+- [x] Assess if regular cleaning operations can continue in unaffected areas during emergency maintenance, with clear documentation of postponed zones
 - [x] Dispatch emergency maintenance crews equipped for specific scenarios (e.g., plumbers, cleaners)
 
 ### D. Task List Management
@@ -59,8 +59,8 @@ Summary: Good at documentation and proactive steps, bad at communication and edg
 
 ### E. Vendor Guidelines
 - [ ] Maintain and regularly update detailed cleaning protocols and vendor-specific work instructions, including specialized checklists for sanitization and high-risk maintenance tasks
-- [ ] Regularly update vendor qualifications by tracking required cleaning certifications (e.g., green cleaning, biohazard remediation) and compliance with local maintenance standards
-- [ ] Archive insurance certificates and compliance documents specific to cleaning and maintenance operations
+- [x] Regularly update vendor qualifications by tracking required cleaning certifications (e.g., green cleaning, biohazard remediation) and compliance with local maintenance standards
+- [x] Archive insurance certificates and compliance documents specific to cleaning and maintenance operations
 
 ### F. Safety & Environmental Requirements
 - [ ] Continuously monitor and enforce compliance with safety guidelines (e.g., OSHA standards) and environmental regulations specific to waste disposal and chemical storage
@@ -76,22 +76,22 @@ Summary: Good at documentation and proactive steps, bad at communication and edg
 ## III. Vendor Coordination
 
 ### A. Multi-Channel Communication
-- [ ] Manage vendor communications via email, SMS, and phone
-- [ ] Support email coordination for vendors using digital communication
-- [ ] Enable SMS-based coordination for vendors who don't use apps/websites (primary channel)
-- [ ] Handle phone-based coordination for vendors preferring voice communication
+- [x] Manage vendor communications via email, SMS, and phone
+- [x] Support email coordination for vendors using digital communication
+- [x] Enable SMS-based coordination for vendors who don't use apps/websites (primary channel)
+- [x] Handle phone-based coordination for vendors preferring voice communication
 - [x] Maintain detailed logs of all communications
 - [x] Ensure messages trigger timely updates in the scheduling system
 
 ### B. Compliance Management
-- [ ] Verify vendor insurance and liability coverage
-- [ ] Track cleaning certifications and background screening statuses
-- [ ] Monitor adherence to local licensing and regulatory requirements
+- [x] Verify vendor insurance and liability coverage
+- [x] Track cleaning certifications and background screening statuses
+- [x] Monitor adherence to local licensing and regulatory requirements
 
 ### C. Equipment & Resource Verification
-- [ ] Verify vendor equipment availability and functionality prior to job assignments
+- [x] Verify vendor equipment availability and functionality prior to job assignments
 - [ ] Monitor equipment maintenance status and resource allocation
-- [ ] Automatically reassign tasks if equipment malfunctions are reported
+- [x] Automatically reassign tasks if equipment malfunctions are reported
 
 ## IV. Job & Schedule Management
 
@@ -106,9 +106,9 @@ Summary: Good at documentation and proactive steps, bad at communication and edg
 - [x] Monitor last-minute cancellation triggers (e.g., sudden staff unavailability due to illness)
 
 ### C. Issue Prevention
-- [ ] Implement proactive measures to prevent service disruptions by cross-referencing crew availability, scheduled equipment maintenance, and real-time incident alerts
+- [x] Implement proactive measures to prevent service disruptions by cross-referencing crew availability, scheduled equipment maintenance, and real-time incident alerts
 - [ ] Identify potential scheduling conflicts and equipment issues in advance through predictive analytics
-- [ ] Automatically reschedule affected cleaning tasks during emergencies or equipment failures with minimal service disruption
+- [x] Automatically reschedule affected cleaning tasks during emergencies or equipment failures with minimal service disruption
 
 ### D. Access Control
 - [x] Manage electronic access for cleaning staff through integrated building access systems
@@ -117,20 +117,20 @@ Summary: Good at documentation and proactive steps, bad at communication and edg
 ## V. Quality Assurance
 
 ### A. Stakeholder Feedback
-- [ ] Collect post-service feedback through multiple channels (email, SMS, app) from all stakeholders
-- [ ] Track quality issues by category (cleanliness, timeliness, communication) and develop targeted improvement plans
-- [ ] Follow up automatically on low ratings
-- [ ] Automatically schedule re-cleans when quality metrics fall below acceptable standards
+- [x] Collect post-service feedback through multiple channels (email, SMS, app) from all stakeholders
+- [x] Track quality issues by category (cleanliness, timeliness, communication) and develop targeted improvement plans
+- [x] Follow up automatically on low ratings
+- [x] Automatically schedule re-cleans when quality metrics fall below acceptable standards
 
 ### B. Pro Communication
 - [ ] Maintain communication channels with cleaning crews with response time SLAs of less than 1 minute for responses.
-- [ ] Escalate issues promptly in accordance with rules.
+- [x] Escalate issues promptly in accordance with rules.
 - [x] Archive detailed communication logs including timestamps, response times, and resolution details
 
 ### C. Visual Verification
-- [ ] Process before/after cleaning photos
-- [ ] Process before/after cleaning videos
-- [ ] Analyze / verify cleaning quality against specific standards (e.g., no visible dust, streak-free windows)
+- [x] Process before/after cleaning photos
+- [x] Process before/after cleaning videos
+- [x] Analyze / verify cleaning quality against specific standards (e.g., no visible dust, streak-free windows)
 - [x] Archive visual records with metadata (timestamp, location, cleaner) for quality audits
 
 ## VI. Property Data Updates
