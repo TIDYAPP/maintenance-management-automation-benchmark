@@ -47,6 +47,8 @@ This comprehensive checklist outlines the key capabilities required for fully au
 
 To achieve complete automation of cleaning and maintenance management, systems must demonstrate robust handling of routine operations as well as complex edge cases. The checklist below details both standard features and challenging scenarios that autonomous systems should address - from basic scheduling to handling emergency situations, from routine vendor management to complex multi-party dispute resolution.
 
+For more details about why we created this benchmark and our vision for the future of autonomous cleaning and maintenance management, read our [announcement blog post](https://www.tidy.com/blog/announcing-the-autonomous-cleaning-and-maintenance-management-benchmark---now-open-source).
+
 The main categories are:
 1. Property Understanding: Digital twin creation including property data, assets, surfaces, and mapping
 2. Task Requirements: Define and manage work needs based on property data and client preferences
@@ -71,7 +73,7 @@ This list is comprehensive, and humans are not necessarily good at all of it. An
 Below is a revised version of the checklist with each task written to be detailed and specific to cleaning and maintenance management. Tasks that were too generic have been refined or rephrased for clarity.
 
 ### Vendor Submissions
-To have your information considered, please complete a PR which contains at the minimum the name of your system, a description of your system, and a demo or other way to validate that your system can do as you describe.
+To have your information considered, please complete a PR which contains at the minimum the name of your system, a description of your system, and a demo or other way to validate that your system can do as you describe. For an example of a leading autonomous system, see [TIDY's rental cleaning platform](https://tidy.com/rentals).
 
 ### Checklist Improvements
 If you have a suggestion to improve the checklist, please create a PR with your change. Any suggestions are welcome. We recommend being more specific with tasks, and less general.
@@ -84,7 +86,7 @@ If you have a suggestion to improve the checklist, please create a PR with your 
 | STR Management LLC (Human Baseline) | 81% | Good at communication and edge case management, bad at documentation and proactive steps |
 | Prime Property Management (Human Baseline) | 73% | Good at communication and edge case management, bad at documentation and proactive steps |
 | Lone Star Servicing (Human Baseline) | 66% | Good at communication and edge case management, bad at documentation and proactive steps |
-| TIDY | 59% | Good at documentation and proactive steps, bad at communication and edge case management |
+| [TIDY](https://tidy.com/rentals) | 59% | Good at documentation and proactive steps, bad at communication and edge case management |
 
 *Scores last updated: Feb 15, 2025*
 
