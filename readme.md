@@ -1,4 +1,4 @@
-# Autonomous Cleaning and Maintenance Management System Checklist
+# Autonomous Cleaning and Maintenance Management Benchmark
 
 ## Table of Contents
 - [Introduction](#introduction)
